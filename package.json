@@ -1,0 +1,23 @@
+{
+  "name": "ts-node-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alberto",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "prisma": "^5.8.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@prisma/client": "^5.8.0",
+    "fastify": "^4.25.2",
+    "tsx": "^4.7.0"
+  }
+}
